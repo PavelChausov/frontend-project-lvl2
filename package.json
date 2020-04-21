@@ -1,0 +1,28 @@
+{
+  "name": "difference-calculator",
+  "version": "1.0.0",
+  "description": "caluclate difference between config files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "gendiff": "bin/gendiff.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavelchausov/frontend-project-lvl2.git"
+  },
+  "keywords": [
+    "difference",
+    "config",
+    "generator",
+    "calculator"
+  ],
+  "author": "Pavel Chausov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pavelchausov/frontend-project-lvl2/issues"
+  },
+  "homepage": "https://github.com/pavelchausov/frontend-project-lvl2#readme"
+}
