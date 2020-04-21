@@ -1,1 +1,2 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/3b40db2821342f09133e/maintainability)](https://codeclimate.com/github/pavelchausov/frontend-project-lvl2/maintainability)
+![CI](https://github.com/pavelchausov/frontend-project-lvl2/workflows/CI/badge.svg)
