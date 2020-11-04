@@ -2,7 +2,7 @@
   "name": "difference-calculator",
   "version": "1.0.0",
   "description": "caluclate difference between config files",
-  "main": "src/index.js",
+  "main": "src/app.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -27,7 +27,8 @@
   },
   "homepage": "https://github.com/pavelchausov/frontend-project-lvl2#readme",
   "dependencies": {
-    "commander": "^5.0.0"
+    "commander": "^5.0.0",
+    "lodash": "^4.17.20"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
