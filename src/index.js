@@ -1,11 +1,11 @@
 import commander from 'commander';
-import app from './app.js';
+import gendiff from './gendiff.js';
 
 const myApp = commander
   .description('Compares two configuration files and shows a difference.')
   .version('0.1.0')
   .arguments('<filepath1> <filepath2>')
-  .action(app)
+  .action((path1, path2) => console.log(gendiff(path1, path2)))
   .option('-f, --format [type]', 'output format');
 
 const runApp = () => {
